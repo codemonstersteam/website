@@ -50,7 +50,7 @@ spec:
               name: nginx
           resources:
             requests:
-              memory: "16Mi"
+              memory: "64Mi"
               cpu: "150m" # 1/4 core
             limits:
               memory: "128Mi"
