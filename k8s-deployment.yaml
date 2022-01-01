@@ -44,7 +44,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
         - name: codemonsters-website
-          image: maxmorev/codemonsters-website:0.0.3
+          image: maxmorev/codemonsters-website:latest
           ports:
             - containerPort: 80
               name: nginx
