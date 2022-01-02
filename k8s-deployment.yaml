@@ -39,12 +39,12 @@ spec:
   template:
     metadata:
       labels:
-        app: codemonsters
+        app: codemonsters-website
     spec:
       terminationGracePeriodSeconds: 10
       containers:
         - name: codemonsters-website
-          image: maxmorev/codemonsters-website:latest
+          image: maxmorev/codemonsters-website:0.0.3
           ports:
             - containerPort: 80
               name: nginx
